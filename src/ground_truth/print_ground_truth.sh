@@ -3,5 +3,7 @@ ground_truth_values=(233168 4613732 6857 906609 232792560 25164150 104743 235146
 
 for i in "${!ground_truth_values[@]}"; do
     ground_truth_val="${ground_truth_values[i]}"
-    echo $ground_truth_val
+    #echo $ground_truth_val
+    #echo ""$i+1" : $ground_truth_val"
+    echo "$((i+1)) : $ground_truth_val"
 done
