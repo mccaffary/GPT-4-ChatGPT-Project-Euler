@@ -6,7 +6,7 @@ Exploration of the performance of ChatGPT (OpenAI) on [Project Euler](https://pr
 
 Here, I provided the text and equations (using LaTeX formatting, which [ChatGPT is able to parse](https://twitter.com/sioum/status/1599382056337014787)) to represent Project Euler problems 1-30 as a prompt. For consistency, in all instances, I added a sentence requesting the solution in the form of a Python script. After evaluating this script against known, ground-truth baselines, I then prompted ChatGPT to try again, or moved onto the next problem.
 
-I then modified the problems such that the concept and structure of the problem remained the same, but the particularities were changed; this yielded some more interesting results (see Comments).
+I then modified the problems such that the concept and structure of the problem remained the same, but the particularities were changed (such as [this example](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/example_modified_question.txt)); this yielded some more interesting results (see Comments).
 
 
 ![Image description](images/chatGPT_project_euler_performance.png)
