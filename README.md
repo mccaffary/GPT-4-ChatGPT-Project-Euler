@@ -48,5 +48,5 @@ dskjfhskdjhfjk akjfhakjh
 
 ## Comments
 
-In this section, describe any insights or observations that you made as a result of your project. You can also discuss any potential implications or applications of your results.
+Performance was, in my opinion, impressive. ChatGPT did not (obviously) regurgitate code samples from its training dataset (none of the Python scripts generated matched any on GitHub or GitLab), and sometimes made attempts to optimise the solution (e.g. using dynamic programming in XXX, or in [problem 6](https://projecteuler.net/problem=6), where it [uses the expression for triangular numbers](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/chat_gpt/problem_6_gpt_first_attempt.py) $\sum_{k=1}^n k=\frac{1}{2} n(n+1)$ without prompting.)
 
