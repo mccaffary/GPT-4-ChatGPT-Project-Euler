@@ -14,7 +14,7 @@ dskjfhskdjhfjk akjfhakjh
 
 | Problem # | Ground-truth solution | ChatGPT solutions |
 |-----------|-----------------------|-------------------|
-| [Problem 1](https://projecteuler.net/problem=1) | [link](https://github.com/Stefan-Ronq/void/blob/main/src/discounted_problems.txt) |                   |
+| [Problem 1](https://projecteuler.net/problem=1) | [problem 1 solution](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/ground_truth/problem_1_ground_truth.py) |                   |
 | [Problem 2](https://projecteuler.net/problem=2) |                       |                   |
 | [Problem 3](https://projecteuler.net/problem=3) |                       |                   |
 | [Problem 4](https://projecteuler.net/problem=4) |                       |                   |
