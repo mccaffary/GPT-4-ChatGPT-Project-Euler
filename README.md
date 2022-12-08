@@ -11,6 +11,8 @@ I then modified the problems such that the concept and structure of the problem 
 
 ![Image description](images/chatGPT_project_euler_performance.png)
 
+^ Here, green denotes ChatGPT finding the correct solution at first ask; orange at second ask; red means it did not find the solution. Grey means I [couldn't find a good way of representing the problem](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/discounted_problems.txt), usually because it required understanding an image.
+
 | Problem # | Ground-truth solution | ChatGPT solutions |
 |-----------|-----------------------|-------------------|
 | [Problem 1](https://projecteuler.net/problem=1) | [problem 1 solution](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/ground_truth/problem_1_ground_truth.py) | [first attempt](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/chat_gpt/problem_1_gpt_first_attempt.py)                  |
