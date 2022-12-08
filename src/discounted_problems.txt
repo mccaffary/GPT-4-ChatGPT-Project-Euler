@@ -1,0 +1,6 @@
+## Some problems were not tractable
+
+problem 15 –> requires image to be understood
+problem 18 –> requires image to be understood
+problem 22 –> requires .txt file to be downloaded
+problem 28 –> requires image to be understood
