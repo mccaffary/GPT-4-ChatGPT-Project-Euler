@@ -1,4 +1,4 @@
-# ChatGPT-Project-Euler
+# GPT-4 & ChatGPT – Project Euler
 Exploration of the performance of ChatGPT (OpenAI) on [Project Euler](https://projecteuler.net/), a set of problems blending mathematical reasoning and programming.
 
 
