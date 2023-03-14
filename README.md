@@ -4,7 +4,7 @@ Exploration of the performance of [GPT-4](https://openai.com/research/gpt-4) and
 
 ## Results
 
-Here, I provided the text and equations (where necessary using LaTeX formatting, which [ChatGPT is able to parse](https://twitter.com/sioum/status/1599382056337014787)) to represent Project Euler problems 1-30 as a prompt. For consistency, in all instances, I added a sentence requesting the solution in the form of a Python script. After evaluating this script against known, ground-truth baselines, I then prompted ChatGPT to try again, or moved onto the next problem.
+Here, I provided the text and equations (where necessary using LaTeX formatting, which [GPT-4 and ChatGPT are able to parse](https://twitter.com/sioum/status/1599382056337014787)) to represent Project Euler problems 1-30 as a prompt. For consistency, in all instances, I added a sentence requesting the solution in the form of a Python script. After evaluating this script against known, ground-truth baselines, I then prompted either GPT-4 or ChatGPT to try again, or moved onto the next problem.
 
 I then modified the problems such that the concept and structure of the problem remained the same, but the particularities were changed (such as [this example](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/example_modified_question.txt)); this yielded some more interesting results (see Comments).
 
@@ -12,6 +12,10 @@ I then modified the problems such that the concept and structure of the problem 
 ![Image description](images/chatGPT_project_euler_performance.png)
 > Here, green denotes ChatGPT finding the correct solution at first ask; orange at second ask; red means it did not find the solution. Grey means I [couldn't find a good way of representing the problem](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/discounted_problems.txt), usually because it required understanding an image.
 
+Prompting both GPT-4 and ChatGPT with the original problems also enables a direct comparison of their performance.
+
+![Image description](images/GPT4_vs_ChatGPT_project_euler_performance.png)
+> GPT-4 outperforms ChatGPT across matched problems.
 
 | Problem # | Ground-truth solution | ChatGPT solutions | GPT-4 solutions |
 |-----------|-----------------------|-------------------| ----------------|
