@@ -1,5 +1,5 @@
 # GPT-4 & ChatGPT – Project Euler
-Exploration of the performance of ChatGPT (OpenAI) on [Project Euler](https://projecteuler.net/), a set of problems blending mathematical reasoning and programming.
+Exploration of the performance of [GPT-4](https://openai.com/research/gpt-4) and [ChatGPT](https://openai.com/blog/chatgpt) (both OpenAI) on [Project Euler](https://projecteuler.net/), a set of problems blending mathematical reasoning and programming.
 
 
 ## Results
@@ -48,6 +48,15 @@ I then modified the problems such that the concept and structure of the problem 
 
 
 ## Comments
+
+### GPT-4
+
+![Image description](images/one_shot_performance_chatgpt_gpt4.png)
+> GPT-4 outperforms ChatGPT in terms of one-shot accuracy across a range of mathematical and programming problems.
+
+ajkhajlkhfjkadhjfkdahkjh
+
+### ChatGPT
 
 Performance was, in my opinion, impressive. ChatGPT did not (obviously) regurgitate code samples from its training dataset (none of the Python scripts generated matched any on Github or Gitlab), and sometimes made attempts to optimise the solution (e.g. using [divide-and-conquer](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/chat_gpt/problem_19_gpt_second_attempt.py) approaches in [problem 19](https://projecteuler.net/problem=19), or in [problem 6](https://projecteuler.net/problem=6) where it uses: $$\sum_{k=1}^n k=\frac{1}{2} n(n+1)$$ the [expression for triangular numbers](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/chat_gpt/problem_6_gpt_first_attempt.py), without prompting).
 
