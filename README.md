@@ -51,7 +51,8 @@ I then modified the problems such that the concept and structure of the problem 
 
 ### GPT-4
 
-![Image description](images/updated_one_shot_accuracy_figure_chatgpt_gpt4.png)
+<img src="images/updated_one_shot_accuracy_figure_chatgpt_gpt4.png" alt="Alt text" width="300"/>
+
 > GPT-4 outperforms ChatGPT in terms of one-shot accuracy across a range of mathematical and programming problems.
 
 ajkhajlkhfjkadhjfkdahkjh
