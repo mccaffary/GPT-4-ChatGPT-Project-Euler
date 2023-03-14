@@ -55,15 +55,16 @@ Prompting both GPT-4 and ChatGPT with the original problems also enables a direc
 
 ### GPT-4
 
+The performance was undeniably impressive given the challenge of these problems (and significantly better than the performance of ChatGPT on matched promtps). The two problems for which GPT-4 failed to produce a working solution both involved parsing very long numbers (400 and 5000 digits, respectively), perhaps suggesting a failure of tokenisation rather than reasoning itself.
+
 <img src="images/updated_one_shot_accuracy_figure_chatgpt_gpt4.png" alt="Alt text" width="550"/>
 
 > GPT-4 outperforms ChatGPT in terms of one-shot accuracy across a range of mathematical and programming problems.
 
-ajkhajlkhfjkadhjfkdahkjh
 
 ### ChatGPT
 
-Performance was, in my opinion, impressive. ChatGPT did not (obviously) regurgitate code samples from its training dataset (none of the Python scripts generated matched any on Github or Gitlab), and sometimes made attempts to optimise the solution (e.g. using [divide-and-conquer](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/chat_gpt/problem_19_gpt_second_attempt.py) approaches in [problem 19](https://projecteuler.net/problem=19), or in [problem 6](https://projecteuler.net/problem=6) where it uses: $$\sum_{k=1}^n k=\frac{1}{2} n(n+1)$$ the [expression for triangular numbers](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/chat_gpt/problem_6_gpt_first_attempt.py), without prompting).
+Performance was, in my opinion, quite impressive. ChatGPT did not (obviously) regurgitate code samples from its training dataset (none of the Python scripts generated matched any on Github or Gitlab), and sometimes made attempts to optimise the solution (e.g. using [divide-and-conquer](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/chat_gpt/problem_19_gpt_second_attempt.py) approaches in [problem 19](https://projecteuler.net/problem=19), or in [problem 6](https://projecteuler.net/problem=6) where it uses: $$\sum_{k=1}^n k=\frac{1}{2} n(n+1)$$ the [expression for triangular numbers](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/chat_gpt/problem_6_gpt_first_attempt.py), without prompting).
 
 As noted by others, the model struggles with very large numbers, even when they do not appreciably increase the conceptual difficulty of the problem (c.f. [problem 13](https://projecteuler.net/problem=13)).
 
