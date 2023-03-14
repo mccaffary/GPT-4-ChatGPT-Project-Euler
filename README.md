@@ -10,9 +10,8 @@ I then modified the problems such that the concept and structure of the problem 
 
 
 ![Image description](images/chatGPT_project_euler_performance.png)
-> After some example code prompts, ChatGPT attempts to write code in a novel, functional DSL known as 'SIL'.
+> Here, green denotes ChatGPT finding the correct solution at first ask; orange at second ask; red means it did not find the solution. Grey means I [couldn't find a good way of representing the problem](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/discounted_problems.txt), usually because it required understanding an image.
 
-^ Here, green denotes ChatGPT finding the correct solution at first ask; orange at second ask; red means it did not find the solution. Grey means I [couldn't find a good way of representing the problem](https://github.com/mccaffary/ChatGPT-Project-Euler/blob/main/src/discounted_problems.txt), usually because it required understanding an image.
 
 | Problem # | Ground-truth solution | ChatGPT solutions | GPT-4 solutions |
 |-----------|-----------------------|-------------------| ----------------|
